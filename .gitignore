@@ -51,5 +51,14 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# Debug information files
 *.dwo
+
+# Editor files
+*~
+
+# Security reasons files
+*.dngtf
+
+# Temporary files
+*.txt
